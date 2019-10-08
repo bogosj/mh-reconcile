@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>MemberHub - WePay Reconcile</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.js"></script>
+</head>
+
+<body>
+    <div id="loading">Loading...</div>
+	<div id="content" style="display: none">
+		<div>WePay Settlement CSV: <input type="file" id="wepay" /></div>
+		<div>MemberHub Order CSV: <input type="file" id="memberhub" /></div>
+		<div><button id="reconcile">Reconcile</button></div>
+        <div id="totals" />
+	</div>
+	<script src="reconcile.js"></script>
+</body>
+
+</html>
