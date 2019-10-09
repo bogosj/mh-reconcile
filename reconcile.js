@@ -98,9 +98,9 @@ function reconcile(e) {
 }
 
 $(function() {
-    $('#loading').css('display', 'none');
-    $('#content').css('display', 'block');
     $('#wepay').change(readFile);
     $('#memberhub').change(readFile);
     $('#reconcile').click(reconcile);
+    $('#loading').css('display', 'none');
+    $('#content').css('display', 'block');
 });
