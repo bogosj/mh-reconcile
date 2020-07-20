@@ -2,4 +2,4 @@
 
 A simple JavaScript tool to reconcile a WePay settlement CSV with a MemberHub order CSV, such that the total amount for each line item in a settlement is calculated.
 
-[Live implementation](https://bogosj.github.io/mh-reconcile/reconcile.html).
+[Live implementation here](https://bogosj.github.io/mh-reconcile/reconcile.html).
